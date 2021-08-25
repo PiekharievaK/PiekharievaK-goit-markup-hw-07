@@ -1,0 +1,51 @@
+.work{
+    padding-top: 0px;
+  }
+  
+  .work-areas {
+    padding-top: 0px;
+  }
+  
+  .work-areas__list {
+    display: flex;
+  }
+  .work-areas__title{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $title-color;
+  }
+  .area {
+    flex-basis: calc((100% - 60px) / 3);
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+ 
+  .area__img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .area__thumb {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .area__description {
+    position: absolute;
+    bottom: 0%;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    padding: 27px 0px;
+    color: $accent-text-color;
+  
+  }

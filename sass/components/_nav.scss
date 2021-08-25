@@ -26,17 +26,18 @@
   .link--current {
     position: relative;
     color: $accent-color;
+
+    &::after {
+      position: absolute;
+      bottom: -24px;
+      display: block;
+      height: 4px;
+      width: 100%;
+      content: "";
+      border-radius: 2px;
+      background-color: $accent-color;}
   }
-  .link--current::after {
-    position: absolute;
-    bottom: -24px;
-    display: block;
-    height: 4px;
-    width: 100%;
-    content: "";
-    border-radius: 2px;
-    background-color: $accent-color;
-  }
+  
   .nav__link:hover,
   .nav__link:focus {
     color: $accent-color;

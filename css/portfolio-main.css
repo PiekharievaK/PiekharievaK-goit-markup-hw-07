@@ -125,12 +125,12 @@ p {
   color: #ffffff;
 }
 
-.header-section {
+.section--header {
   height: 80px;
   border-bottom: 1px solid #eeeeee;
 }
 
-.header-section__container {
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -384,7 +384,7 @@ p {
           align-items: center;
 }
 
-.footer-section {
+.section--footer {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #2f303a;

@@ -40,12 +40,12 @@ p {
   margin: -1px;
 }
 
-.header-section {
+.section--header {
   height: 80px;
   border-bottom: 1px solid #eeeeee;
 }
 
-.header-section__container {
+.header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -375,7 +375,7 @@ p {
   border-top: 0px;
 }
 
-.hero__section {
+.section--hero {
   padding: 200px 0;
   text-align: center;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-bg.jpg");
@@ -452,7 +452,7 @@ p {
   margin-right: 30px;
 }
 
-.work {
+.section--works {
   padding-top: 0px;
 }
 
@@ -532,7 +532,7 @@ p {
   background-color: #ffffff;
 }
 
-.team-section {
+.section--team {
   background-color: #f5f4fa;
 }
 
@@ -677,7 +677,7 @@ p {
           align-items: center;
 }
 
-.footer-section {
+.section--footer {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #2f303a;

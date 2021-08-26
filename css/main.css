@@ -666,16 +666,13 @@ a {
   margin-right: 70px;
 }
 
-.address-data {
+.footer__address {
   font-style: normal;
-}
-
-.address-data__list {
-  color: #ffffff;
 }
 
 .address-data__address {
   margin-bottom: 9px;
+  color: #ffffff;
 }
 
 .contact-item {

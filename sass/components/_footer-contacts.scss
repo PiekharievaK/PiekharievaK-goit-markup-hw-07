@@ -14,16 +14,13 @@
 //  
 //   color: $accent-text-color;
 // }
-.address-data {
+.footer__address {
   font-style: normal;
 }
 
-.address-data__list {
- 
-  color: $accent-text-color;
-}
 .address-data__address {
   margin-bottom: 9px;
+  color: $accent-text-color;
 }
 
 .contact-item {

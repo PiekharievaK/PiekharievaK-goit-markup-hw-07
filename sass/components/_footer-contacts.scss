@@ -11,7 +11,7 @@
 //   font-weight: 700;
 //   font-size: 26px;
 //   line-height: 1.2;
-//   text-decoration: none;
+//  
 //   color: $accent-text-color;
 // }
 .address-data {
@@ -19,7 +19,7 @@
 }
 
 .address-data__list {
-  text-decoration: none;
+ 
   color: $accent-text-color;
 }
 .address-data__address {
@@ -27,7 +27,7 @@
 }
 
 .contact-item {
-  text-decoration: none;
+ 
   color: $main-text-color;
 }
 
@@ -39,7 +39,7 @@
   align-items: center;
   height: 16px;
   color: $main-text-color;
-  text-decoration: none;
+ 
   transition-property: color;
   transition-duration: $duration;
   transition-timing-function: $cubic;}

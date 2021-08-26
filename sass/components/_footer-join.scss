@@ -9,7 +9,7 @@
   .join-us__title {
     margin-bottom: 20px;
     text-transform: uppercase;
-    @include font-style (inherit, 700,  14px, 1.14, 0.03em,  $accent-text-color);
+    @include font-style ( 700,  14px, 1.14, 0.03em,  $accent-text-color);
     // font-weight: 700;
     // font-size: 14px;
     // line-height: 1.14;
@@ -27,7 +27,7 @@
     width: 44px;
     height: 44px;
   
-    text-decoration: none;
+   
     border-radius: 50%;
     color: $accent-text-color;
     background-color: rgba(255, 255, 255, 0.1);
@@ -49,7 +49,7 @@
   .subscribe__title {
     margin-bottom: 20px;
     text-transform: uppercase;
-    @include font-style (inherit, 700,  14px, 1.14, 0.03em,  $accent-text-color);
+    @include font-style ( 700,  14px, 1.14, 0.03em,  $accent-text-color);
     // font-weight: 700;
     // font-size: 14px;
     // line-height: 16px;

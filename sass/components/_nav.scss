@@ -8,8 +8,8 @@
 
    .nav__link {
     padding: 8px 0px;
-    text-decoration: none;
-    @include font-style (inherit, 500,  14px, 1.14, 0.02em,  $title-color);
+   
+    @include font-style ( 500,  14px, 1.14, 0.02em,  $title-color);
     // font-weight: 500;
     // font-size: 14px;
     // line-height: 1.14;
@@ -25,7 +25,7 @@
     color: $accent-color;
   }
   }
-  .link--current {
+  .nav__link--current {
     position: relative;
     color: $accent-color;
 

@@ -1,6 +1,6 @@
 body {
-  @include font-style ((Roboto, sans-serif), 400,  14px, 1.71, 0.03em,  $main-text-color);
-  // font-family: "Roboto", sans-serif;
+  @include font-style ( 400,  14px, 1.71, 0.03em,  $main-text-color);
+  font-family: "Roboto", sans-serif;
   // font-size: 14px;
   // line-height: 1.71;
   // letter-spacing: 0.03em;
@@ -21,3 +21,6 @@ ul {
     padding: 0;
   }
 
+a{
+  text-decoration: none;
+}

@@ -1,4 +1,4 @@
-.team__list {
+.team {
     display: flex;
   }
   .team-card__picture {
@@ -6,8 +6,8 @@
     width: 100%;
     height: auto;
   }
-  .team__title {
-    @include font-style (inherit, 700,  36px, 1.16, 0.03em,  $title-color);
+  .section_title {
+    @include font-style ( 700,  36px, 1.16, 0.03em,  $title-color);
     margin-bottom: 50px;
     text-align: center;
     // font-weight: 700;

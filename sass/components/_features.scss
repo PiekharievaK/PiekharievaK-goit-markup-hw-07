@@ -1,4 +1,4 @@
-.feature__icon {
+.features__box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,12 +9,12 @@
     background-color: $accent-backgraund;
   }
 
-  .feature__title {
+  .features__title {
     margin-bottom: 10px;
     text-transform: uppercase;
-    @include font-style (inherit, 700,  14px, 1.14, 0.03em, $title-color);
+    @include font-style ( 700,  14px, 1.14, 0.03em, $title-color);
   
-    // font-family: Roboto;
+    font-family: Roboto;
     // font-weight: 700;
     // font-size: 14px;
     // line-height: 1.14;
@@ -22,11 +22,11 @@
     // color: $title-color;
   }
   
-  .features__list {
+  .features {
     display: flex;
   }
   
-  .feature {
+  .features__item {
     flex-basis: calc((100% - 90px / 4));
 
     &:not(:last-child) {

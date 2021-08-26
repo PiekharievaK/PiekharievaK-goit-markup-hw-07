@@ -15,8 +15,7 @@ $duration: 250ms;
 $cubic: cubic-bezier(0.4, 0, 0.2, 1);
 $modal-fill-border: rgba(33, 33, 33, 0.2);
 
- @mixin font-style ($family, $weight, $size, $height, $letter-spacing, $color)  {
-      font-family: $family;
+ @mixin font-style ( $weight: 400px, $size: 14px, $height: 1.71, $letter-spacing: 0.03em, $color: ($main-text-color))  {
     font-weight: $weight;
     font-size: $size;
     line-height: $height;

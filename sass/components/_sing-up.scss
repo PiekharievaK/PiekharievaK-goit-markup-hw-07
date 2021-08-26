@@ -7,7 +7,7 @@
   .modal__title {
     margin-bottom: 12px;
     text-align: center;
-    @include font-style (inherit, 700,  20px, 1.15, 0.03em,  $title-color);
+    @include font-style ( 700,  20px, 1.15, 0.03em,  $title-color);
     // font-weight: 700;
     // font-size: 20px;
     // line-height: 1.15;
@@ -106,6 +106,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
+    text-decoration: underline;
   }
   .hide-checkbox {
     position: absolute;

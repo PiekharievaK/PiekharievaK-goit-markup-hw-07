@@ -113,12 +113,13 @@ a {
 
 .logo {
   margin-right: 93px;
+  display: inline-block;
+  font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: inherit;
   color: #212121;
-  font-family: Raleway;
 }
 
 .logo__color {
@@ -127,7 +128,6 @@ a {
 
 .logo--footer {
   color: #ffffff;
-  display: inline-block;
   margin-bottom: 20px;
 }
 

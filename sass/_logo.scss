@@ -1,8 +1,9 @@
 .logo {
  
     margin-right: 93px;
-    @include font-style ( 700,  26px, 1.2, inherit, $title-color);
+    display: inline-block;
     font-family: Raleway;
+    @include font-style ( 700,  26px, 1.2, inherit, $title-color);
     // font-weight: 700;
     // font-size: 26px;
     // line-height: 1.2;
@@ -13,7 +14,6 @@
   }
   .logo--footer {
     color: $accent-text-color;
-    display: inline-block;
-    margin-bottom: 20px;
+     margin-bottom: 20px;
 
  }

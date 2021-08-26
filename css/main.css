@@ -644,7 +644,7 @@ a {
   fill: #2196f3;
 }
 
-.footer {
+.footer__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -653,7 +653,7 @@ a {
           align-items: center;
 }
 
-.section--footer {
+.footer {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #2f303a;

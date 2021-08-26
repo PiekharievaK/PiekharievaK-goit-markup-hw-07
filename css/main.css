@@ -363,7 +363,7 @@ a {
   border-top: 0px;
 }
 
-.section--hero {
+.hero {
   padding: 200px 0;
   text-align: center;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/hero-bg.jpg");

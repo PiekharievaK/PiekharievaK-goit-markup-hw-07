@@ -44,12 +44,12 @@ a {
   margin: -1px;
 }
 
-.section--header {
+.header {
   height: 80px;
   border-bottom: 1px solid #eeeeee;
 }
 
-.header {
+.conteiner--header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

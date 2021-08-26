@@ -4,7 +4,7 @@
     margin-bottom: 50px;
   }
   
-  .button--filter {
+  .filter__botton {
     padding: 6px 22px;
     @include font-style ( 500,  16px, 1.6, inherit,  $title-color);
     cursor: pointer;

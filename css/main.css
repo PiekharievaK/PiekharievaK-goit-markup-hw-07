@@ -127,8 +127,9 @@ a {
 }
 
 .logo--footer {
-  color: #ffffff;
+  margin-right: 0px;
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .nav {

@@ -14,18 +14,19 @@
   }
   
   .hero__title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
+    @include font-style (inherit, 900,  44px, 1.36, 0.06em, uppercase, none,  $accent-text-color);
     margin-bottom: 30px;
-    text-transform: uppercase;
-    color: $accent-text-color;
+    // font-weight: 900;
+    // font-size: 44px;
+    // line-height: 1.36;
+    // letter-spacing: 0.06em;
+    // text-transform: uppercase;
+    // color: $accent-text-color;
   }
   
   .hero__button {
     display: block;
-    padding: 10px 32px;
+    padding: 10px 30px;
     margin: 0 auto;
   
     transition-property: background-color;

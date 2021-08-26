@@ -6,17 +6,17 @@
   
   .filter__button {
     padding: 6px 22px;
-  
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
+    @include font-style (inherit, 500,  16px, 1.6, inherit, none, none,  $title-color);
     cursor: pointer;
+    background-color: $accent-backgraund;
     border-radius: 4px;
     border: 1px solid transparent;
-    color: $title-color;
-    background-color: $accent-backgraund;
-  
+    // font-family: inherit;
+    // font-weight: 500;
+    // font-size: 16px;
+    // line-height: 1.6;
+    // color: $title-color;
+    
     transition-property: background-color, color;
     transition-duration: $duration;
     transition-timing-function: $cubic;

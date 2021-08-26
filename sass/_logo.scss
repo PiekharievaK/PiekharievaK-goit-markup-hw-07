@@ -1,11 +1,12 @@
 .logo {
     margin-right: 93px;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
-    color: $title-color;
+    // font-family: Raleway;
+    // font-weight: 700;
+    // font-size: 26px;
+    // line-height: 1.2;
+    // text-decoration: none;
+    // color: $title-color;
+    @include font-style (Raleway, 700,  26px, 1.2, inherit , none, none, $title-color)
   }
   .logo__color {
     color: $accent-color;
@@ -13,10 +14,11 @@
   .logo--footer {
     display: inline-block;
     margin-bottom: 20px;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    text-decoration: none;
-    color: $accent-text-color;
-  }
+    @include font-style (Raleway, 700,  26px, 1.2, inherit , none, none, $accent-text-color)
+    // font-family: Raleway;
+    // font-weight: 700;
+    // font-size: 26px;
+    // line-height: 1.2;
+    // text-decoration: none;
+    // color: $accent-text-color;
+ }

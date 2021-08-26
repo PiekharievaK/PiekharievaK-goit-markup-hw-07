@@ -1,8 +1,11 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-transform: none;
+  text-decoration: none;
   color: #757575;
   background-color: #ffffff;
 }
@@ -59,16 +62,18 @@ p {
 .subscribe-button {
   width: 200px;
   height: 50px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #2196f3;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.6px;
-  cursor: pointer;
-  border-radius: 4px;
-  border: 1px solid transparent;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  text-decoration: none;
   color: #ffffff;
-  background-color: #2196f3;
   -webkit-transition-property: background-color;
   transition-property: background-color;
   -webkit-transition-duration: 250ms;
@@ -118,6 +123,8 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: inherit;
+  text-transform: none;
   text-decoration: none;
   color: #212121;
 }
@@ -133,6 +140,8 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: inherit;
+  text-transform: none;
   text-decoration: none;
   color: #ffffff;
 }
@@ -153,11 +162,12 @@ p {
 }
 
 .nav__link {
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 8px 0px;
+  text-transform: none;
   text-decoration: none;
   color: #212121;
   -webkit-transition-property: color;
@@ -247,18 +257,20 @@ p {
 }
 
 .hero__title {
+  font-family: inherit;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  margin-bottom: 30px;
   text-transform: uppercase;
+  text-decoration: none;
   color: #ffffff;
+  margin-bottom: 30px;
 }
 
 .hero__button {
   display: block;
-  padding: 10px 32px;
+  padding: 10px 30px;
   margin: 0 auto;
   -webkit-transition-property: background-color;
   transition-property: background-color;
@@ -287,12 +299,13 @@ p {
 
 .feature__title {
   margin-bottom: 10px;
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #212121;
 }
 
@@ -327,11 +340,14 @@ p {
 
 .work-areas__title {
   margin-bottom: 50px;
+  text-align: center;
+  font-family: inherit;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-transform: none;
+  text-decoration: none;
   color: #212121;
 }
 
@@ -393,9 +409,13 @@ p {
 
 .team-card__title {
   margin-bottom: 10px;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: inherit;
+  text-transform: none;
+  text-decoration: none;
   color: #212121;
 }
 
@@ -478,11 +498,14 @@ p {
 
 .clients__title {
   margin-bottom: 50px;
+  text-align: center;
+  font-family: inherit;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
+  text-transform: none;
+  text-decoration: none;
   color: #212121;
 }
 
@@ -539,17 +562,6 @@ p {
       -ms-flex-positive: 1;
           flex-grow: 1;
   margin-right: 70px;
-}
-
-.logo--footer {
-  display: inline-block;
-  margin-bottom: 20px;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .address-data {
@@ -610,11 +622,13 @@ p {
 
 .join-us__title {
   margin-bottom: 20px;
+  font-family: inherit;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #ffffff;
 }
 
@@ -653,11 +667,13 @@ p {
 
 .subscribe__title {
   margin-bottom: 20px;
+  font-family: inherit;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #ffffff;
 }
 

@@ -14,3 +14,14 @@ $backdrop: rgba(0, 0, 0, 0.2);
 $duration: 250ms;
 $cubic: cubic-bezier(0.4, 0, 0.2, 1);
 $modal-fill-border: rgba(33, 33, 33, 0.2);
+
+ @mixin font-style ($family, $weight, $size, $height, $letter-spacing, $transform, $text-decoration, $color)  {
+      font-family: $family;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+    letter-spacing: $letter-spacing;
+    text-transform:$transform;
+    text-decoration: $text-decoration;
+    color: $color;
+ }

@@ -1,8 +1,11 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-transform: none;
+  text-decoration: none;
   color: #757575;
   background-color: #ffffff;
 }
@@ -44,16 +47,18 @@ p {
 .subscribe-button {
   width: 200px;
   height: 50px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #2196f3;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.6px;
-  cursor: pointer;
-  border-radius: 4px;
-  border: 1px solid transparent;
+  letter-spacing: 0.06em;
+  text-transform: none;
+  text-decoration: none;
   color: #ffffff;
-  background-color: #2196f3;
   -webkit-transition-property: background-color;
   transition-property: background-color;
   -webkit-transition-duration: 250ms;
@@ -103,6 +108,8 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: inherit;
+  text-transform: none;
   text-decoration: none;
   color: #212121;
 }
@@ -118,6 +125,8 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: inherit;
+  text-transform: none;
   text-decoration: none;
   color: #ffffff;
 }
@@ -153,11 +162,12 @@ p {
 }
 
 .nav__link {
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding: 8px 0px;
+  text-transform: none;
   text-decoration: none;
   color: #212121;
   -webkit-transition-property: color;
@@ -251,11 +261,14 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: inherit;
+  text-transform: none;
+  text-decoration: none;
+  color: #212121;
   cursor: pointer;
+  background-color: #f5f4fa;
   border-radius: 4px;
   border: 1px solid transparent;
-  color: #212121;
-  background-color: #f5f4fa;
   -webkit-transition-property: background-color, color;
   transition-property: background-color, color;
   -webkit-transition-duration: 250ms;
@@ -397,17 +410,6 @@ p {
   margin-right: 70px;
 }
 
-.logo--footer {
-  display: inline-block;
-  margin-bottom: 20px;
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  text-decoration: none;
-  color: #ffffff;
-}
-
 .address-data {
   font-style: normal;
 }
@@ -466,11 +468,13 @@ p {
 
 .join-us__title {
   margin-bottom: 20px;
+  font-family: inherit;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #ffffff;
 }
 
@@ -509,11 +513,13 @@ p {
 
 .subscribe__title {
   margin-bottom: 20px;
+  font-family: inherit;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
   color: #ffffff;
 }
 

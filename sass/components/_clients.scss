@@ -4,12 +4,13 @@
   
   .clients__title{
     margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
+    // font-weight: 700;
+    // font-size: 36px;
+    // line-height: 1.16;
+    // letter-spacing: 0.03em;
+    // color: $title-color;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: $title-color;
+    @include font-style (inherit, 700,  36px, 1.16, 0.03em, none, none,  $title-color);
   }
   
   .company{
@@ -39,7 +40,3 @@
     fill: $accent-color; }
   }
   
-  // .company__link:hover,
-  // .company__link:focus {
-  //   border: 1px solid $accent-color;
-  //   fill: $accent-color;

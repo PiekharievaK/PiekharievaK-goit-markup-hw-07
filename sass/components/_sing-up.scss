@@ -6,12 +6,13 @@
   
   .modal__title {
     margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: $title-color;
+    @include font-style (inherit, 700,  20px, 1.15, 0.03em, none, none,  $title-color);
+    // font-weight: 700;
+    // font-size: 20px;
+    // line-height: 1.15;
+    // letter-spacing: 0.03em;
+    // color: $title-color;
   }
   
   .inform {

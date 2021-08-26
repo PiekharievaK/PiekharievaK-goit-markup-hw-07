@@ -4,8 +4,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  text-transform: none;
-  text-decoration: none;
   color: #757575;
   background-color: #ffffff;
 }
@@ -71,8 +69,6 @@ p {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  text-transform: none;
-  text-decoration: none;
   color: #ffffff;
   -webkit-transition-property: background-color;
   transition-property: background-color;
@@ -118,14 +114,13 @@ p {
 }
 
 .logo {
+  text-decoration: none;
   margin-right: 93px;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: inherit;
-  text-transform: none;
-  text-decoration: none;
   color: #212121;
 }
 
@@ -136,13 +131,12 @@ p {
 .logo--footer {
   display: inline-block;
   margin-bottom: 20px;
+  text-decoration: none;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: inherit;
-  text-transform: none;
-  text-decoration: none;
   color: #ffffff;
 }
 
@@ -162,13 +156,13 @@ p {
 }
 
 .nav__link {
+  padding: 8px 0px;
+  text-decoration: none;
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-transform: none;
-  text-decoration: none;
   color: #212121;
   -webkit-transition-property: color;
   transition-property: color;
@@ -196,11 +190,6 @@ p {
   content: "";
   border-radius: 2px;
   background-color: #2196f3;
-}
-
-.nav__link:hover,
-.nav__link:focus {
-  color: #2196f3;
 }
 
 .nav__item:not(:last-child) {
@@ -262,10 +251,9 @@ p {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
-  text-decoration: none;
   color: #ffffff;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .hero__button {
@@ -299,13 +287,12 @@ p {
 
 .feature__title {
   margin-bottom: 10px;
+  text-transform: uppercase;
   font-family: inherit;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
   color: #212121;
 }
 
@@ -346,8 +333,6 @@ p {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  text-transform: none;
-  text-decoration: none;
   color: #212121;
 }
 
@@ -377,10 +362,13 @@ p {
   background-color: rgba(47, 48, 58, 0.8);
   width: 100%;
   text-transform: uppercase;
-  font-weight: 700;
-  line-height: 1.14;
   text-align: center;
   padding: 27px 0px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 1.14;
+  letter-spacing: inherit;
   color: #ffffff;
 }
 
@@ -414,8 +402,6 @@ p {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: inherit;
-  text-transform: none;
-  text-decoration: none;
   color: #212121;
 }
 
@@ -481,13 +467,14 @@ p {
 }
 
 .team__title {
-  margin-bottom: 50px;
+  font-family: inherit;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
+  text-align: center;
 }
 
 .clients__list {
@@ -504,8 +491,6 @@ p {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  text-transform: none;
-  text-decoration: none;
   color: #212121;
 }
 
@@ -622,13 +607,12 @@ p {
 
 .join-us__title {
   margin-bottom: 20px;
+  text-transform: uppercase;
   font-family: inherit;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
   color: #ffffff;
 }
 
@@ -667,13 +651,12 @@ p {
 
 .subscribe__title {
   margin-bottom: 20px;
+  text-transform: uppercase;
   font-family: inherit;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
   color: #ffffff;
 }
 
@@ -840,10 +823,11 @@ p {
 
 .modal__title {
   margin-bottom: 12px;
+  text-align: center;
+  font-family: inherit;
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #212121;
 }

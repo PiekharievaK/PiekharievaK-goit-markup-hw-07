@@ -8,12 +8,12 @@
   }
   .join-us__title {
     margin-bottom: 20px;
-    @include font-style (inherit, 700,  14px, 1.14, 0.03em, uppercase, none,  $accent-text-color);
+    text-transform: uppercase;
+    @include font-style (inherit, 700,  14px, 1.14, 0.03em,  $accent-text-color);
     // font-weight: 700;
     // font-size: 14px;
     // line-height: 1.14;
     // letter-spacing: 0.03em;
-    // text-transform: uppercase;
     // color: $accent-text-color;
   }
   
@@ -48,12 +48,12 @@
   
   .subscribe__title {
     margin-bottom: 20px;
-    @include font-style (inherit, 700,  14px, 1.14, 0.03em, uppercase, none,  $accent-text-color);
+    text-transform: uppercase;
+    @include font-style (inherit, 700,  14px, 1.14, 0.03em,  $accent-text-color);
     // font-weight: 700;
     // font-size: 14px;
     // line-height: 16px;
     // letter-spacing: 0.03em;
-    // text-transform: uppercase;
     // color: $accent-text-color;
   }
   

@@ -6,7 +6,7 @@
   
   .filter__button {
     padding: 6px 22px;
-    @include font-style (inherit, 500,  16px, 1.6, inherit, none, none,  $title-color);
+    @include font-style (inherit, 500,  16px, 1.6, inherit,  $title-color);
     cursor: pointer;
     background-color: $accent-backgraund;
     border-radius: 4px;

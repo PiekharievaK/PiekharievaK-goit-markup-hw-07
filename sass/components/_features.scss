@@ -11,14 +11,14 @@
 
   .feature__title {
     margin-bottom: 10px;
-    @include font-style (inherit, 700,  14px, 1.14, 0.03em, uppercase, none,  $title-color);
+    text-transform: uppercase;
+    @include font-style (inherit, 700,  14px, 1.14, 0.03em, $title-color);
   
     // font-family: Roboto;
     // font-weight: 700;
     // font-size: 14px;
     // line-height: 1.14;
     // letter-spacing: 0.03em;
-    // text-transform: uppercase;
     // color: $title-color;
   }
   

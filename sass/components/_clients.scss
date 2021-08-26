@@ -10,7 +10,7 @@
     // letter-spacing: 0.03em;
     // color: $title-color;
     text-align: center;
-    @include font-style (inherit, 700,  36px, 1.16, 0.03em, none, none,  $title-color);
+    @include font-style (inherit, 700,  36px, 1.16, 0.03em,  $title-color);
   }
   
   .company{

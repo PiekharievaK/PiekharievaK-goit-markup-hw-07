@@ -580,7 +580,7 @@ a {
   display: flex;
 }
 
-.team-card__picture {
+.team__img {
   display: block;
   width: 100%;
   height: auto;
